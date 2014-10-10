@@ -2,10 +2,17 @@ package helloworld;
 
 public class HelloWorldClass {
 
+	private String getTesting()
+	{
+		return "This is testing";
+	}
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		System.out.println("Hello World STS");
+		HelloWorldClass hello =new HelloWorldClass();
+		
+		System.out.println(hello.getTesting());
 	}
 
 }
